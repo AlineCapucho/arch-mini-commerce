@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.hexagonal.application.usecases.UseCasesTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-05-26T14:17:30" hostname="DESKTOP-3NLDHBS" time="0.126">
+  <properties/>
+  <testcase name="criarPedido com valor acima de 500 aplica desconto de 10 porcento()" classname="com.example.hexagonal.application.usecases.UseCasesTest" time="0.061"/>
+  <testcase name="pagarPedido com pedido PENDENTE transiciona para PAGO()" classname="com.example.hexagonal.application.usecases.UseCasesTest" time="0.006"/>
+  <testcase name="criarPedido com CPF em branco lanca DomainException()" classname="com.example.hexagonal.application.usecases.UseCasesTest" time="0.003"/>
+  <testcase name="pagarPedido com pedido inexistente lanca NoSuchElementException()" classname="com.example.hexagonal.application.usecases.UseCasesTest" time="0.007"/>
+  <testcase name="criarPedido com estoque insuficiente rejeita pedido sem alterar estoque()" classname="com.example.hexagonal.application.usecases.UseCasesTest" time="0.015"/>
+  <testcase name="criarPedido com nome em branco lanca DomainException()" classname="com.example.hexagonal.application.usecases.UseCasesTest" time="0.002"/>
+  <testcase name="criarPedido com produto inexistente lanca DomainException()" classname="com.example.hexagonal.application.usecases.UseCasesTest" time="0.003"/>
+  <testcase name="pagarPedido com pedido CANCELADO lanca DomainException()" classname="com.example.hexagonal.application.usecases.UseCasesTest" time="0.004"/>
+  <testcase name="criarPedido com produto disponivel cria pedido PENDENTE()" classname="com.example.hexagonal.application.usecases.UseCasesTest" time="0.003"/>
+  <testcase name="criarPedido com um produto sem estoque em lista mista rejeita sem alterar nenhum estoque()" classname="com.example.hexagonal.application.usecases.UseCasesTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

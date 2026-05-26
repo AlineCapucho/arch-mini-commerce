@@ -1,6 +1,6 @@
 # Mini Commerce
 
-Sistema simplificado de gestão de pedidos implementado em **três versões arquiteturais** com Kotlin + Spring Boot + H2. O objetivo é comparar na prática como a mesma lógica de negócio se organiza em arquiteturas diferentes.
+Sistema simplificado de gestão de pedidos implementado em **três versões arquiteturais** com Kotlin + Spring Boot. O objetivo é comparar na prática como a mesma lógica de negócio se organiza em arquiteturas diferentes.
 
 ---
 

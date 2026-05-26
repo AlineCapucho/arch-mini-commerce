@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.monolito.service.PedidoServicePropertyTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-05-26T14:05:02" hostname="DESKTOP-3NLDHBS" time="0.234">
+  <properties/>
+  <testcase name="Property 5 — desconto de 10% é aplicado quando valorBruto &gt; 500.00" classname="com.example.monolito.service.PedidoServicePropertyTest" time="0.106"/>
+  <testcase name="Property 5 — nenhum desconto é aplicado quando valorBruto ≤ 500.00" classname="com.example.monolito.service.PedidoServicePropertyTest" time="0.051"/>
+  <testcase name="Property 5 — para qualquer preço, a regra de desconto é mutuamente exclusiva" classname="com.example.monolito.service.PedidoServicePropertyTest" time="0.075"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

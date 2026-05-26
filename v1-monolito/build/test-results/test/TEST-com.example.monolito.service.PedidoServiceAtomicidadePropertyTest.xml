@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.monolito.service.PedidoServiceAtomicidadePropertyTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-05-26T14:05:00" hostname="DESKTOP-3NLDHBS" time="1.925">
+  <properties/>
+  <testcase name="Property 7 — pedido com um único produto sem estoque é rejeitado" classname="com.example.monolito.service.PedidoServiceAtomicidadePropertyTest" time="1.577"/>
+  <testcase name="Property 7 — pedido com múltiplos produtos onde o último não tem estoque é rejeitado sem alterar estoques" classname="com.example.monolito.service.PedidoServiceAtomicidadePropertyTest" time="0.225"/>
+  <testcase name="Property 7 — pedido com produto sem estoque no meio da lista é rejeitado sem alterar estoques" classname="com.example.monolito.service.PedidoServiceAtomicidadePropertyTest" time="0.114"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\Aline\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.13\979ce25f7d3096a2e82214ba7dc972a05ce7a171\byte-buddy-agent-1.14.13.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
